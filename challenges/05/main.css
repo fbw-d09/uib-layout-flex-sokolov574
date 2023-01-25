@@ -3,7 +3,14 @@
 body {
   border: 5px solid red;
 }
-
+section 
+{
+  /* border: 3px solid black; */
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+  justify-content: center;
+}
 div {
   flex-shrink: 1;
   height: 100px;
